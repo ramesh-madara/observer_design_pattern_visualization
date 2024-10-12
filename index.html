@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Observer Pattern Example</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Observer Design Pattern Example</h1>
+    <div class="container">
+        <div class="subject-outer">
+            <h2 class="head">Subject: Weather Station</h2>
+            <input type="text" id="stateInput" placeholder="Enter new weather status" />
+            <button id="changeState">Update Weather</button>
+        </div>
+        
+
+      <div class="output" id="output">Attach Observers to recieve updates. <br></div>
+
+      <div class="observers">
+        <div id="observer1" class="observer" style="background-color: #4caf50">
+          <div>Observer 1: </br>Smartphone</div>
+          <div class="state" id="state1">Weather:</br> not available</div>
+          <div>
+            <button id="attach1">Attach</button>
+            <button id="detach1">Detach</button>
+          </div>
+        </div>
+        <div id="observer2" class="observer" style="background-color: #2196f3">
+          <div>Observer 2 </br>Tablet PC</div>
+          <div class="state" id="state2">Weather:</br> not available</div>
+          <div>
+            <button id="attach2">Attach</button>
+            <button id="detach2">Detach</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="created"><a href="https://www.linkedin.com/in/ramesh-madara-76b019261/" target="_blank">SOF/23/B2/02 - Ramesh Madara</a></div>
+    <script src="script.js"></script>
+  </body>
+</html>

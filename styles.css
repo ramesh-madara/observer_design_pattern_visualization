@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #4caf50;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #45a049;
+}
+.output {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+}
+.observers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.observer {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+#attach1,
+#attach2 {
+  background-color: blue;
+}
+#detach1,
+#detach2 {
+  background-color: red;
+}
+.state {
+  font-weight: 800;
+  margin: 20px;
+}
+.head {
+  color: #45a049;
+}
+.subject-outer {
+  background-color: #45a04930;
+  padding: 30px;
+  border-radius: 15px;
+}
+.created {
+  position: fixed;
+  background-color: #45a049;
+  padding: 2px 5px 2px 5px;
+  display: flex;
+  border-radius: 5px 0px 0px 0px;
+  right: 0;
+  bottom: 0;
+}
+.created a {
+  color: white;
+}
+.created:hover a {
+  color: rgb(255, 203, 105);
+}
